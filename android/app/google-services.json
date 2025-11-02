@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "627608960263",
+    "project_id": "xshope-6428b",
+    "storage_bucket": "xshope-6428b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627608960263:android:5b0b888066882cdc82d9a2",
+        "android_client_info": {
+          "package_name": "com.yonatan.xshope"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrVKhA7D1jwbPwKCYZjVQo0Da6Zc3TUVE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

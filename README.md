@@ -1,16 +1,35 @@
-# xshope
+# XShope - Product Showcase
 
-A new Flutter project.
+A Flutter web application that showcases products with images and data hosted on GitHub and deployed via Netlify.
 
-## Getting Started
+## Product Management Guide (Owner Only)
 
-This project is a starting point for a Flutter application.
+### Adding New Products
 
-A few resources to get you started if this is your first Flutter project:
+1. **Upload Product Images:**
+   - Go to the `assets/products` folder in your GitHub repository
+   - Click "Add file" > "Upload files"
+   - Select your product images (recommended size: 800x600px)
+   - Commit the changes with a descriptive message
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+2. **Update Products JSON:**
+   - Open the `products.json` file in your GitHub repository
+   - Click the edit button (pencil icon)
+   - Add a new product entry following this format:
+   ```json
+   {
+     "name": "Product Name",
+     "price": 99.99,
+     "description": "Detailed product description.",
+     "imageUrl": "https://raw.githubusercontent.com/xyoni25/xshope/main/assets/products/your-image-name.jpg",
+     "rating": 4.5,
+     "category": "Category Name",
+     "inStock": true,
+     "features": [
+       "Feature 1",
+       "Feature 2",
+       "Feature 3",
+       "Feature 4"
+     ]
+   }
+   ```

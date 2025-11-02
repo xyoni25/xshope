@@ -1,0 +1,3 @@
+﻿00:00 +0: loading D:/my app/xhope/xshope/test/widget_test.dart
+00:00 +0: basic smoke test
+00:00 +1: All tests passed!

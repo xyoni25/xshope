@@ -43,50 +43,5 @@
       "Bluetooth 5.0",
       "Built-in microphone"
     ]
-  },
-  {
-    "name": "Smart Fitness Tracker",
-    "price": 149.99,
-    "description": "Track your health metrics with this advanced fitness band. Monitor your daily activities, workouts, sleep patterns, and health metrics with this sleek and comfortable wearable device.",
-    "imageUrl": "https://raw.githubusercontent.com/xyoni25/xshope/main/assets/products/fitness-tracker.jpg",
-    "rating": 4.7,
-    "category": "Wearables",
-    "inStock": true,
-    "features": [
-      "Heart rate monitoring",
-      "Sleep tracking",
-      "Water resistant",
-      "7-day battery life"
-    ]
-  },
-  {
-    "name": "Minimalist Desk Lamp",
-    "price": 79.99,
-    "description": "Modern LED desk lamp with adjustable brightness levels. This energy-efficient lamp provides flicker-free illumination with touch controls and flexible positioning.",
-    "imageUrl": "https://raw.githubusercontent.com/xyoni25/xshope/main/assets/products/desk-lamp.jpg",
-    "rating": 4.6,
-    "category": "Home",
-    "inStock": true,
-    "features": [
-      "5 brightness levels",
-      "3 color temperatures",
-      "USB charging port",
-      "Auto-off timer"
-    ]
-  },
-  {
-    "name": "Ceramic Coffee Mug Set",
-    "price": 34.99,
-    "description": "Set of 4 handcrafted ceramic coffee mugs in assorted colors. These stylish mugs are microwave and dishwasher safe, perfect for your morning coffee or evening tea.",
-    "imageUrl": "https://raw.githubusercontent.com/xyoni25/xshope/main/assets/products/mug-set.jpg",
-    "rating": 4.4,
-    "category": "Kitchen",
-    "inStock": true,
-    "features": [
-      "12oz capacity",
-      "Microwave safe",
-      "Dishwasher safe",
-      "Lead-free ceramic"
-    ]
   }
 ]
