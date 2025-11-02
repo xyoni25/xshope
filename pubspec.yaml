@@ -1,0 +1,44 @@
+name: xshope
+description: "A product showcase website with GitHub-hosted images."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.1.0  # Added for fetching product data from GitHub
+  url_launcher: ^6.1.12  # For opening links
+  cached_network_image: ^3.3.0  # For better image loading with caching
+  flutter_staggered_grid_view: ^0.7.0  # For nicer product grid layouts
+  shared_preferences: ^2.2.0  # For storing favorites locally
+  provider: ^6.0.5  # For state management
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Uncomment and add your assets here
+  assets:
+    - assets/images/
+    - assets/icons/
+  
+  # Add custom fonts if needed
+  # fonts:
+  #   - family: Montserrat
+  #     fonts:
+  #       - asset: assets/fonts/Montserrat-Regular.ttf
+  #       - asset: assets/fonts/Montserrat-Bold.ttf
+  #         weight: 700
+  #       - asset: assets/fonts/Montserrat-Light.ttf
+  #         weight: 300
+  #       - asset: assets/fonts/Montserrat-Medium.ttf
+  #         weight: 500
